@@ -1,5 +1,5 @@
 import Navbar from "../components/navbar";
-import Link from "next/Link";
+import Link from "next/link";
 //https://nextjs.org/docs/api-reference/data-fetching/getInitialProps
 const Index = ({ posts, mode }) => {
   //   console.log(posts);
