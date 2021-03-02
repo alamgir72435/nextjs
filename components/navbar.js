@@ -11,9 +11,15 @@ const navbar = () => {
 
   return (
     <nav style={styles}>
-      <Link href="/">Index Page</Link>
-      <Link href="/about">About Page</Link>
-      <Link href="/contact">Contact us</Link>
+      <Link href="/">
+        <a>Index Page</a>
+      </Link>
+      <Link href="/about">
+        <a>About Page</a>
+      </Link>
+      <Link href="/contact">
+        <a>Contact us</a>
+      </Link>
     </nav>
   );
 };

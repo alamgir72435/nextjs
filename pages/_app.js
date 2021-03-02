@@ -1,12 +1,11 @@
-import App, { Container } from "next/App";
+import App from "next/App";
 
 function MyApp({ Component, pageProps }) {
-    
   return (
-    <Container>
+    <>
       <h1>Hello From app</h1>
       <Component {...pageProps} />
-    </Container>
+    </>
   );
 }
 
