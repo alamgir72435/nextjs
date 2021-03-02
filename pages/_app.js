@@ -1,4 +1,4 @@
-import App from "next/App";
+// import App from "next/App";
 
 function MyApp({ Component, pageProps }) {
   return (
