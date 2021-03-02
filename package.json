@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server2.js",
     "build": "next build",
-    "start": "NODE_INV=production node server2.js"
+    "start": "node server2.js"
   },
   "keywords": [],
   "author": "",
